@@ -1,0 +1,23 @@
+/* ---------------------- */
+.timeline-item {
+	border-left: 3px solid;
+	padding: 3em 2em 2em;
+	position: relative;
+}
+
+.timeline-item::before {
+	content: attr(date-is);
+	positon: absolute;
+	
+}
+
+.timeline-item::after {
+	width: 10px;
+	height: 10px;
+	left: -7px;
+	border-radius: 10px;
+	position: absolute;
+	border: 2px solid black;
+	display: block;
+	content: '';
+}
