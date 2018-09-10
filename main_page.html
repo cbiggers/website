@@ -8,229 +8,241 @@
         <!-- the above 3 meta tags must come first, any other head content must come after -->
         <title>Carl Biggers</title>
         <!-- Bootstrap core CSS -->
-        <link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
-        <!--
-        <link href="styles.css" rel="stylesheet">
-        -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <!--<link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
+        <!--<link href="styles.css" rel="stylesheet">-->
         <!-- the link grabbed from Google's Web Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="timeline.css" rel="stylesheet">
     </head>
 
 <body>
-
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-        <!-- group brand and toggle for better display -->
-        <div class="navbar-header navbar-left">
-             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/" title="Carl D.K. Biggers" style="color: white">CDKB</a>
+  <header>
+    <nav>
+      <div class="collapse bg-dark" id="navbarHeader"></div>
+      <div class="navbar navbar-dark bg-dark shadow-sm" role="navigation">
+        <div class="container d-flex justify-content-between">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <span>CDKB</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+            aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-            <li>
-                <a href="#" style="color:white;">
-                <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Blog</a>
-            </li>
-            <li>
-                <a href="Carl%20DK%20Biggers%20Resume.pdf" style="color:white;">
-                <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Resume</a>
-            </li>
-            <li>
-                <a href="###" style="color:white;">
-                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/carl-dk-biggers" style="color:white;">
-                <span class="glyphicon glyphicon-link" aria-hidden="true"></span> LinkedIn</a>
-            </li>
-            <li>
-                <a href="www.github.com" style="color:white;">
-                <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> GitHub</a>
-            </li>
-            <!---
-            <li>
-                <a href="Pivot_Production_Example.xlsx" style="color:white;">
-                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Excel Starter</a>
-            </li>
-            --->
-        </ul>
-        </div> <!-- navbar-collapse -->
-    </div>    <!-- container-fluid-->
-</nav>
+      </div>
+    </nav>
+ </header>
 
-
-<div class="jumbotron dark" style="background-color: #325182; color: #ffffff; background-image:url(img/Header_Mtn_Path_Dim.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;">
-    <div class="container" style="text-align:center;font-family: 'Roboto', sans-serif; color:#ffffff;">
-        <br>
-        <br>
-        <br>
-        <h1 style="font-weight: 500;">Carl D.K. Biggers</h1>
-        <h2>Product & Project Manager</h2>
-        <br>
-        <br>
-        <p>I have an aptitude for bringing vision, process, organization, and leadership to opaque projects in high-pressure environments.</p>
-        <a class="btn btn-primary btn-lg" href="Carl%20DK%20Biggers%20Resume.pdf" role="button" style="background-color:;">Download Resume (PDF)</a>
-        <br>
-    </div>
-</div>
+<!--          <div class="navbar-header navbar-left">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+          <a class="navbar-brand" href="/" title="Carl D.K. Biggers" style="color: white">CDKB</a>
+          </div>
+          <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+              <li>
+                  <a href="#" style="color:white;">
+                  <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Blog</a>
+              </li>
+              <li>
+                  <a href="Carl%20DK%20Biggers%20Resume.pdf" style="color:white;">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Resume</a>
+              </li>
+              <li>
+                  <a href="###" style="color:white;">
+                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</a>
+              </li>
+              <li>
+                  <a href="https://www.linkedin.com/in/carl-dk-biggers" style="color:white;">
+                  <span class="glyphicon glyphicon-link" aria-hidden="true"></span> LinkedIn</a>
+              </li>
+              <li>
+                  <a href="www.github.com" style="color:white;">
+                  <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> GitHub</a>
+              </li>
+              <!-
+              <li>
+                  <a href="Pivot_Production_Example.xlsx" style="color:white;">
+                  <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Excel Starter</a>
+              </li>
+          </ul>
+          </div>
+      </div>
+  </nav>
+-->
+<main role="main">
+  <div class="jumbotron dark text-center" style="background-color: #325182; color: #ffffff; background-position: center; background-repeat: no-repeat; background-size: cover;background-attachment: fixed;">
+      <!--<div class="jumbotron dark text-center" style="background-color: #325182; color: #ffffff; background-image:url(img/Header_Mtn_Path_Dim.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;background-attachment: fixed;">-->
+      <div class="container" style="text-align:center;font-family: 'Roboto', sans-serif; color:#ffffff;">
+          <h1 style="font-weight: 500;">Carl Biggers</h1>
+          <h2>Product Manager</h2>
+          <p>Text here</p>
+          <a class="btn btn-primary btn-md" href="Carl%20DK%20Biggers%20Resume.pdf" role="button" style="background-color:;">Download Resume (PDF)</a>
+      </div>
+  </div>
 
     <!------About Me Panel------->
-<div class="panel panel-primary" style="font-family: 'Roboto', sans-serif;">
-    <div class="panel-heading" style="background-color: #325182; font-size: 20px; text-align: center;">About Me</div>
-    <div class="panel-body" style="font-family:'Roboto',sans-serif;text-align: center">
+  <div class="panel panel-primary" style="font-family: 'Roboto', sans-serif;">
+      <div class="panel-heading" style="background-color: #325182; font-size: 20px; text-align: center;">About Me</div>
+      <div class="panel-body" style="font-family:'Roboto',sans-serif;text-align: center">
 
 
-          <div class="media-center">
-            <button type="button" class="btn btn-default btn-lg" style="border-color: #ffffff; padding: px px; font-size:30px;">
-              <span class="glyphicon glyphicon-flash" aria-hidden="true"></span>
-            </button>
+            <div class="media-center">
+              <button type="button" class="btn btn-default btn-lg" style="border-color: #ffffff; padding: px px; font-size:30px;">
+                <span class="glyphicon glyphicon-flash" aria-hidden="true"></span>
+              </button>
 
-          <div class="media-body">
-            <h3 class="media-heading">Problem Solver</h3>
-            <p>I fall in love with the customer problem, then drive towards a solution.</p>
-          </div>
-        </div>
-
-        <br>
-
-
-          <div class="media-center">
-            <button type="button" class="btn btn-default btn-lg" style="border-color: #ffffff; padding: px px; font-size:30px;">
-              <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-            </button>
-
-          <div class="media-body">
-            <h3 class="media-heading">Go-To</h3>
-            <p>I am approached to tackle complex and high-impact projects because I'll get it done.</p>
-          </div>
-        </div>
-        <br>
-
-
-          <div class="media-center">
-            <button type="button" class="btn btn-default btn-lg" style="border-color: #ffffff; padding: px px; font-size:30px;">
-              <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
-            </button>
-
-          <div class="media-body">
-            <h3 class="media-heading">Product Geek</h3>
-            <p>I constantly learn about new products and improve my product sense.</p>
-          </div>
-        </div>
-        <br>
-
-        <div class="media-center">
-            <button type="button" class="btn btn-default btn-lg" style="border-color: #ffffff; padding: px px; font-size:30px;">
-              <span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
-            </button>
-
-          <div class="media-body">
-            <h3 class="media-heading">Cuts Through Ambiguity</h3>
-            <p>I thrive on bringing vision, process, and organization to opaque projects.</p>
-          </div>
-        </div>
-        <br>
-
-    </div>
-</div>
-<!---------Career Overview panel----------->
-<div class="panel panel-primary" style="font-family: 'Roboto', sans-serif;">
-    <div class="panel-heading" style="background-color: #325182; font-size: 20px; text-align: center;">Career Overview</div>
-    <div class="panel-body" style="font-family:'Roboto',sans-serif;">
-
-       <!-- <div class='container-fluid'>
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" src="Intuit.jpg" alt="..." style="width: 128px; height: 64px;">
-            </a>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Intuit, Inc | Mountain View, CA</h4>
-            <p>Product Manager MBA Intern, QuickBooks Online Accountant</p>
-            <li>more test text</li>
-            <li>more test text</li>
-
-          </div>
-        </div>
-
-        <br>
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" src="Epic.jpg" alt="..." style="width: 128px; height: 64px;">
-            </a>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Epic Den Bosch B.V. | 's-Hertogenbosch NL</h4>
-              <p>Technical Services, Diagnose Behandel Conbinatie</p>
-            <li>Test paragraph text</li>
-            <li>Test paragraph text</li>
-
-          </div>
-        </div>
-
-        <br>
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" src="Epic.jpg" alt="..." style="width: 128px; height: 64px;">
-            </a>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Media heading 2</h4>
-            <p>Test paragraph text</p>
-          </div>
-        </div>
-        </div> -->
-
-        <!------------Timeline Test------------->
-        <div class="container-fluid">
-        <!----------Container 1----->
-        <div style="padding: 0em 1em 1em 1em; border-left: 2px solid; border-color: black; line-height: 1; margin-left: 10px;">
-            <span style="height: 30px;width: 30px; left: 27px; border-radius: 50%; border: 2px solid; content:'';background: white; position: absolute;"></span>
-            <div class="container" style="padding: 1em">
-                <p>05/2017 - 08/2017</p>
-                <h3>Intuit Inc.</h3>
-                <h4>Product Manager MBA Intern, QuickBooks Online Accountant</h4>
+            <div class="media-body">
+              <h3 class="media-heading">Problem Solver</h3>
+              <p>I fall in love with the customer problem, then drive towards a solution.</p>
             </div>
-        </div>
-        <!------Container 2------>
-        <div style="padding: 0em 1em 1em 1em; border-left: 2px solid; border-color: black; line-height: 1; margin-left: 10px;">
-            <span style="height: 30px;width: 30px; left: 27px; border-radius: 50%; border: 2px solid; content:'';background: white; position: absolute;"></span>
-            <div class="container" style="padding: 1em">
-                <p>08/2015 - 08/2016</p>
-                <h3>Epic Den Bosch B.V</h3>
-                <h4>Technical Services, Diagnose Behandel Combinatie</h4>
+          </div>
+
+          <br>
+
+
+            <div class="media-center">
+              <button type="button" class="btn btn-default btn-lg" style="border-color: #ffffff; padding: px px; font-size:30px;">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+              </button>
+
+            <div class="media-body">
+              <h3 class="media-heading">Go-To</h3>
+              <p>I am approached to tackle complex and high-impact projects because I'll get it done.</p>
             </div>
-        </div>
-        <!---------#3----------->
-        <div style="padding: 0em 1em 1em 1em; border-left: 2px solid; border-color: black; line-height: 1; margin-left: 10px;">
-            <span style="height: 30px;width: 30px; left: 27px; border-radius: 50%; border: 2px solid; content:'';background: white; position: absolute;"></span>
-            <div class="container" style="padding: 1em">
-                <p>12/2012 - 08/2015</p>
-                <h3>Epic Systems</h3>
-                <h4>Technical Services, Technical Coordinator & Team Lead</h4>
+          </div>
+          <br>
+
+
+            <div class="media-center">
+              <button type="button" class="btn btn-default btn-lg" style="border-color: #ffffff; padding: px px; font-size:30px;">
+                <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+              </button>
+
+            <div class="media-body">
+              <h3 class="media-heading">Product Geek</h3>
+              <p>I constantly learn about new products and improve my product sense.</p>
+            </div>
+          </div>
+          <br>
+
+          <div class="media-center">
+              <button type="button" class="btn btn-default btn-lg" style="border-color: #ffffff; padding: px px; font-size:30px;">
+                <span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
+              </button>
+
+            <div class="media-body">
+              <h3 class="media-heading">Cuts Through Ambiguity</h3>
+              <p>I thrive on bringing vision, process, and organization to opaque projects.</p>
+            </div>
+          </div>
+          <br>
+
+      </div>
+  </div>
+  <!--Career Overview panel-->
+  <div class="panel panel-primary" style="font-family: 'Roboto', sans-serif;">
+      <div class="panel-heading" style="background-color: #325182; font-size: 20px; text-align: center;">Career Overview</div>
+      <div class="panel-body" style="font-family:'Roboto',sans-serif;">
+
+         <!-- <div class='container-fluid'>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="Intuit.jpg" alt="..." style="width: 128px; height: 64px;">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Intuit, Inc | Mountain View, CA</h4>
+              <p>Product Manager MBA Intern, QuickBooks Online Accountant</p>
+              <li>more test text</li>
+              <li>more test text</li>
+
+            </div>
+          </div>
+
+          <br>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="Epic.jpg" alt="..." style="width: 128px; height: 64px;">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Epic Den Bosch B.V. | 's-Hertogenbosch NL</h4>
+                <p>Technical Services, Diagnose Behandel Conbinatie</p>
+              <li>Test paragraph text</li>
+              <li>Test paragraph text</li>
+
+            </div>
+          </div>
+
+          <br>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="Epic.jpg" alt="..." style="width: 128px; height: 64px;">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading 2</h4>
+              <p>Test paragraph text</p>
+            </div>
+          </div>
+          </div> -->
+
+          <!------------Timeline Test------------->
+          <div class="container-fluid">
+          <!----------Container 1----->
+          <div style="padding: 0em 1em 1em 1em; border-left: 2px solid; border-color: black; line-height: 1; margin-left: 10px;">
+              <span style="height: 30px;width: 30px; left: 27px; border-radius: 50%; border: 2px solid; content:'';background: white; position: absolute;"></span>
+              <div class="container" style="padding: 1em">
+                  <p>05/2017 - 08/2017</p>
+                  <h3>Intuit Inc.</h3>
+                  <h4>Product Manager MBA Intern, QuickBooks Online Accountant</h4>
               </div>
-        </div>
-        </div>
-        </div>
-    </div>
+          </div>
+          <!------Container 2------>
+          <div style="padding: 0em 1em 1em 1em; border-left: 2px solid; border-color: black; line-height: 1; margin-left: 10px;">
+              <span style="height: 30px;width: 30px; left: 27px; border-radius: 50%; border: 2px solid; content:'';background: white; position: absolute;"></span>
+              <div class="container" style="padding: 1em">
+                  <p>08/2015 - 08/2016</p>
+                  <h3>Epic Den Bosch B.V</h3>
+                  <h4>Technical Services, Diagnose Behandel Combinatie</h4>
+              </div>
+          </div>
+          <!---------#3----------->
+          <div style="padding: 0em 1em 1em 1em; border-left: 2px solid; border-color: black; line-height: 1; margin-left: 10px;">
+              <span style="height: 30px;width: 30px; left: 27px; border-radius: 50%; border: 2px solid; content:'';background: white; position: absolute;"></span>
+              <div class="container" style="padding: 1em">
+                  <p>12/2012 - 08/2015</p>
+                  <h3>Epic Systems</h3>
+                  <h4>Technical Services, Technical Coordinator & Team Lead</h4>
+                </div>
+          </div>
+          </div>
+          </div>
+      </div>
+</main>
 <!----------------------------------->
 
 <!--jquery access via CDN instead of
 via the downloaded file. needs to be in this order.
 -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+<!--<script src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 
 <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
