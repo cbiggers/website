@@ -1,0 +1,36 @@
+/* ---------------------- */
+.timeline-item {
+	border-left: 3px solid;
+	padding: 3em 2em 2em;
+	position: relative;
+}
+
+.timeline-item::before {
+	content: attr(date-is);
+	positon: absolute;
+
+}
+
+.timeline-item::after {
+	width: 10px;
+	height: 10px;
+	left: -7px;
+	border-radius: 10px;
+	position: absolute;
+	border: 2px solid black;
+	display: block;
+	content: '';
+}
+
+.jumbotron {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #ffffff;
+	background-image: url(img/Header_Mtn_Path_Dim.jpg);
+	padding-top: 20%;
+	padding-bottom: 20%;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+}
